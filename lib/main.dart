@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/home.dart';
+import 'package:project_1/pages/KartuNama.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'My App',
-      theme: ThemeData(
-        colorScheme: .fromSeed(seedColor: Colors.blueAccent),
-      ),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: KartuNama(),
     );
   }
 }

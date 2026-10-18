@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project_1/pages/KartuNama.dart';
+import 'package:project_1/pages/BMIScreen.dart';
+// import 'package:project_1/pages/KartuNama.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'My App',
       debugShowCheckedModeBanner: false,
-      home: KartuNama(),
+      home: BMIScreen(),
     );
   }
 }
+
 

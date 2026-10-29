@@ -46,7 +46,7 @@ class KartuNama extends StatelessWidget {
                 Text(
                   'Computer Science Student',
                   style: GoogleFonts.montserrat(
-                    fontSize: 17,
+                    fontSize: 10,
                     color: Colors.white70,
                     letterSpacing: 0.2,
                   ),
